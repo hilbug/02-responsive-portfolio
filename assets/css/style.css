@@ -11,10 +11,23 @@ header {
 
 h1 {
     background-color: seashell;
+    color: rosybrown;
 }
 
 nav li a,
 footer p {
+    color: seashell;
+}
+
+/* Contact Form Changes */
+
+h2 {
+    color: rosybrown;
+}
+
+.btn {
+    background-color: rosybrown;
+    border: 1 solid rosybrown;
     color: seashell;
 }
 

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body class="mb-5">
     <!-- Header container -->
     <header class="container-fluid p-0 m-0">
         <!-- Header One Row -->
@@ -29,45 +29,49 @@
             <div class="col-md-8" role="navigation">
                 <nav class="mb-0">
                     <ul class="nav justify-content-md-end justify-content-center">
-                        <li class="nav-item border-right border-dark"><a class="nav-link" href="index.html">About</a></li>
-                        <li class="nav-item border-right border-dark"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item border-right border-dark"><a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item border-right border-dark"><a class="nav-link"
+                                href="portfolio.html">Portfolio</a></li>
                         <li class="nav-item border-dark mr-10"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </div> <!-- Navigation End -->
-        </div> <!-- Row Close -->
-    </header> <!-- Header Close-->
-
-    <!-- Start Contact Form -->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-8">
-                <h2 class="border-bottom border-dark p-2">Contact Hilary!</h2>
+            </div>
+        </div> 
+    </header class="mb-5"> 
+    <main>
+        <!-- Start Contact Form -->
+        <div class="container mt-5">
+            <!-- Contact Form Header -->
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="border-bottom border-dark p-2">Send me a message!</h2>
+                </div>
+            </div>
+            <!-- Form Begins -->
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="p-2">
+                        <div class="form-group">
+                            <label for="nameinput">Name</label></br>
+                            <input type="text" class="form-control w-100" id="nameinput" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailinput">Email</label></br>
+                            <input type="email" class="form-control w-100" id="emailinput" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="messagetextarea">Message</label></br>
+                            <textarea class="form-control w-100" id="messagetextarea" placeholder="Your message"
+                                rows="6"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send it!</button>
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <form class="p-2 mb-3">
-                <!-- Use the appropriate type attribute on all inputs eg email, number, etc 
-                form-control class - inputs, select, textarea
-                form-control-lg sizing-->
-                    <div class="form-group">
-                        <label for="nameinput">Name</label></br>
-                        <input type="text" class="form-control w-100" id="nameinput" placeholder="Your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="emailinput">Email</label></br>
-                        <input type="email" class="form-control w-100" id="emailinput" placeholder="Your email">
-                    </div>
-                    <div class="form-group">
-                        <label for="messagetextarea">Message</label></br>
-                        <textarea class="form-control w-100" id="messagetextarea" placeholder="Your message" rows="10"></textarea>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- End Contact Form -->
+        <!-- Form Container Ends -->
+    </main>
 
     <!-- Start Footer -->
     <footer class="container-fluid fixed-bottom p-0">
