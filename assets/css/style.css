@@ -9,7 +9,7 @@ header {
     border-bottom: 5px solid black;
 }
 
-h1 {
+h1, .btn {
     background-color: seashell;
     color: rosybrown;
 }
@@ -19,16 +19,28 @@ footer p {
     color: seashell;
 }
 
+a.nav-link:hover {
+    color: black;
+}
+
 /* Contact Form Changes */
 
 h2 {
     color: rosybrown;
 }
 
-.btn {
+.contact-bg {
     background-color: rosybrown;
-    border: 1 solid rosybrown;
     color: seashell;
+}
+
+.btn {
+    border: 2 solid rosybrown;
+}
+
+.btn:hover {
+    background-color: black;
+    border: black;
 }
 
 /* Footer */
