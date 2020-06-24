@@ -34,11 +34,13 @@ h2 {
     color: seashell;
 }
 
-.btn {
+.btn.btn-primary {
     border: 2 solid rosybrown;
 }
 
-.btn:hover {
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
     background-color: black;
     border: black;
 }
