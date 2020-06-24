@@ -25,10 +25,6 @@ a.nav-link:hover {
 
 /* Contact Form Changes */
 
-h2 {
-    color: rosybrown;
-}
-
 .contact-bg {
     background-color: rosybrown;
     color: seashell;
@@ -49,4 +45,8 @@ h2 {
 footer {
     background-color: rosybrown;
     border-top: 5px solid black;
+}
+
+.footer-margin {
+    height: 100px; 
 }

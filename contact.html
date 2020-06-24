@@ -21,9 +21,10 @@
         <!-- Header One Row -->
         <div class="row no-gutters">
             <!-- Header Name -->
-            <div class="col-md-2"></div>
             <div class="col-md-2">
-                <h1 class="text-center mb-0 border-left border-right border-bottom border-dark">Hilary</h1>
+            </div>
+            <div class="col-md-2">
+                <h1 class="text-center mb-0 border-left border-right border-dark">Hilary</h1>
             </div>
             <!-- Navigation Start -->
             <div class="col-md-8" role="navigation">
@@ -33,28 +34,26 @@
                         </li>
                         <li class="nav-item border-right border-dark"><a class="nav-link"
                                 href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item border-dark mr-10 active"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item border-dark mr-10 active"><a class="nav-link"
+                                href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </div> 
-    </header class="mb-5"> 
+        </div>
+    </header class="mb-5">
     <main>
-        <!-- Start Contact Form -->
+        <!-- Start Container for Contact Form -->
         <div class="container mt-5">
-            <!-- Contact Form Header -->
-            <div class="row">
-                <div class="col-md-8">
-                    <h2 class="border-bottom border-dark p-2">Contact</h2>
-                </div>
-            </div>
-            <!-- Form Begins -->
             <div class="row">
                 <div class="col-md-8 contact-bg rounded-lg">
+                    <!-- Contact Form Header -->
+                    <h2 class="mt-2">Contact me</h2>
+                    <hr>
+                    <!-- Form Begins -->
                     <form class="p-2">
                         <div class="form-group">
                             <label for="nameinput">Name</label></br>
-                            <input type="text" class="form-control w-100" id="nameinput" placeholder="Your name">
+                            <input type="text" class="form-control" id="nameinput" placeholder="Your name">
                         </div>
                         <div class="form-group">
                             <label for="emailinput">Email</label></br>
@@ -65,7 +64,7 @@
                             <textarea class="form-control w-100" id="messagetextarea" placeholder="Your message"
                                 rows="6"></textarea>
                         </div>
-                        <button class="btn btn-primary" type="submit">Send it!</button>
+                        <button class="btn btn-primary mb-3" type="submit">Send it!</button>
                     </form>
                 </div>
             </div>
@@ -74,13 +73,15 @@
     </main>
 
     <!-- Start Footer -->
-    <footer class="container-fluid fixed-bottom p-0">
-        <div class="row p-2 text-center">
-            <div class="col-12">
-                <p class="mb-0">&copy;Copyright</p>
+    <div class="footer-margin">
+        <footer class="container-fluid fixed-bottom p-0">
+            <div class="row p-2 text-center">
+                <div class="col-12">
+                    <p class="mb-0">&copy;Copyright</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <!-- End Footer -->
 
     <!-- Optional JavaScript -->
