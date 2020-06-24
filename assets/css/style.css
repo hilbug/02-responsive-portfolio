@@ -1,5 +1,9 @@
 
 /* Header and Nav Links */
+body {
+    background-color: seashell;
+}
+
 header {
     background-color: rosybrown;
     border-bottom: 5px solid black;
