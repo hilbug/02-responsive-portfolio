@@ -51,18 +51,18 @@
                 <!-- Use the appropriate type attribute on all inputs eg email, number, etc 
                 form-control class - inputs, select, textarea
                 form-control-lg sizing-->
-                    <p>
-                        <label for="input">Name</label></br>
-                        <input type="text" id="input" placeholder="Enter your name" class="w-100">
-                    </p>
-                    <p>
-                        <label for="input">Email</label></br>
-                        <input type="text" id="input" placeholder="Enter your email" class="w-100">
-                    </p>
-                    <p>
-                        <label for="textarea">Message</label></br>
-                        <textarea id="textarea" rows="10" class="w-100"></textarea>
-                    </p>
+                    <div class="form-group">
+                        <label for="nameinput">Name</label></br>
+                        <input type="text" class="form-control w-100" id="nameinput" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailinput">Email</label></br>
+                        <input type="email" class="form-control w-100" id="emailinput" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="messagetextarea">Message</label></br>
+                        <textarea class="form-control w-100" id="messagetextarea" placeholder="Your message" rows="10"></textarea>
+                    </div>
                 </form>
             </div>
         </div>
