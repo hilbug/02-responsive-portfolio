@@ -1,3 +1,20 @@
+
+/* Header and Nav Links */
+header {
+    background-color: rosybrown;
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    background-color: seashell;
+}
+
+nav li a,
+footer p {
+    color: seashell;
+}
+
+/* Footer */
 footer {
     background-color: rosybrown;
     border-top: 5px solid black;
