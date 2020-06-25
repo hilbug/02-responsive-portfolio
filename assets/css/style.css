@@ -30,15 +30,19 @@ a.nav-link:hover {
     color: seashell;
 }
 
-.btn.btn-primary {
-    border: 2 solid rosybrown;
+.contact-btn {
+    border: rosybrown;
+    box-shadow: none;
 }
 
-.btn.btn-primary:hover,
-.btn.btn-primary:active,
-.btn.btn-primary:focus {
+.contact-btn:hover,
+.contact-btn:active,
+.contact-btn:focus,
+.contact-btn:active:focus{
     background-color: black;
     border: black;
+    box-shadow: none;
+    color: rosybrown;
 }
 
 /* Footer */
