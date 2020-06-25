@@ -14,12 +14,13 @@ h1, .btn {
     color: rosybrown;
 }
 
-nav li a,
+.nav-link,
 footer p {
     color: seashell;
 }
 
-a.nav-link:hover {
+.nav-link:hover,
+a.active {
     color: black;
 }
 
