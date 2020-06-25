@@ -9,7 +9,9 @@ header {
     border-bottom: 5px solid black;
 }
 
-h1, .btn {
+h1, 
+.btn,
+h1 a {
     background-color: seashell;
     color: rosybrown;
 }
@@ -20,7 +22,8 @@ footer p {
 }
 
 .nav-link:hover,
-a.active {
+a.active,
+h1 a:hover {
     color: black;
 }
 
