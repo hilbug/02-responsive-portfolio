@@ -27,6 +27,15 @@ h1 a:hover {
     color: black;
 }
 
+/* Portfolio Page */
+
+.portfolio-header {
+    background-color: rosybrown;
+    position: absolute;
+    top: 25%;
+    /* also used some of the contact-btn classes */
+}
+
 /* Contact Form Changes */
 
 .contact-bg {
